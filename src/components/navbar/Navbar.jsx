@@ -4,6 +4,7 @@ import { FiHome } from 'react-icons/fi'
 import { SiAboutdotme } from 'react-icons/si'
 import { RiBook2Fill } from 'react-icons/ri'
 import { MdHomeRepairService } from 'react-icons/md'
+impoer {RiContactsFill} from 'react-icons/ri'
 const navbar = () => {
   return (
     <>
@@ -23,7 +24,7 @@ const navbar = () => {
         <FiHome />
       </a>
       <a href='#contact'>
-        <FiHome />
+        <RiContactsFill />
       </a>
     </>
   )
