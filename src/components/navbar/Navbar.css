@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  position: relative;
+  margin-bottom: 1rem;
+  top: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+}
