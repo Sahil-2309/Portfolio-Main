@@ -7,7 +7,7 @@ import { MdHomeRepairService } from 'react-icons/md'
 import { RiContactsFill } from 'react-icons/ri'
 const navbar = () => {
   return (
-    <>
+    <nav>
       <div className='nav'>
         <a href='#about'>
           <SiAboutdotme />
@@ -28,7 +28,7 @@ const navbar = () => {
           <RiContactsFill />
         </a>
       </div>
-    </>
+    </nav>
   )
 }
 
