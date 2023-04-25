@@ -4,16 +4,17 @@ import { FiHome } from 'react-icons/fi'
 import { SiAboutdotme } from 'react-icons/si'
 import { RiBook2Fill } from 'react-icons/ri'
 import { MdHomeRepairService } from 'react-icons/md'
-import { RiContactsFill } from 'react-icons/ri'
+import { IoMdContact } from 'react-icons/io'
+import { AiOutlineUser } from 'react-icons/ai'
 const navbar = () => {
   return (
     <nav>
       <div className='nav'>
-        <a href='#about'>
-          <SiAboutdotme />
-        </a>
         <a href='#'>
           <FiHome />
+        </a>
+        <a href='#about'>
+          <SiAboutdotme />
         </a>
         <a href='#experience'>
           <RiBook2Fill />
@@ -22,10 +23,10 @@ const navbar = () => {
           <MdHomeRepairService />
         </a>
         <a href='#portfolio'>
-          <FiHome />
+          <AiOutlineUser />
         </a>
         <a href='#contact'>
-          <RiContactsFill />
+          <IoMdContact />
         </a>
       </div>
     </nav>
