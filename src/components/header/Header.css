@@ -26,7 +26,7 @@ header {
 .header__socials::after {
   content: '';
   width: 1px;
-  height: 6rem;
+  height: 10rem;
   background: var(--color-primary);
 }
 @media screen and (max-width: 1024px) {
