@@ -39,9 +39,11 @@
   text-align: center;
 }
 .about__card:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
+  filter: brightness(1.2) contrast(1.2) saturate(1.2);
+  transition: filter 200ms ease-in-out, border-color 200ms ease-in-out,
+    box-shadow 200ms ease-in-out;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 10px var(--color-primary);
 }
 .about__icon {
   color: var(--color-primary);
