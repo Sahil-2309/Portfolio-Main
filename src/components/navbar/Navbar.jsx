@@ -19,7 +19,7 @@ const navbar = () => {
         <a href='#experience'>
           <RiBook2Fill />
         </a>
-        <a href='#services'>
+        <a href='#service'>
           <MdHomeRepairService />
         </a>
         <a href='#portfolio'>
