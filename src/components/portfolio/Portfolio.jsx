@@ -22,7 +22,7 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <button className='btn btn-primary'>Expired</button>
+            {/* <button className='btn btn-primary'>Expired</button> */}
           </div>
         </article>
         <article className='portfolio__item'>
@@ -38,7 +38,7 @@ const Portfolio = () => {
             >
               Github
             </a>
-            <button className='btn btn-primary'>Not deployed</button>
+            {/* <button className='btn btn-primary'>Not deployed</button> */}
           </div>
         </article>
       </div>
