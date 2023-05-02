@@ -6,7 +6,7 @@ import { RiBook2Fill } from 'react-icons/ri'
 import { MdHomeRepairService } from 'react-icons/md'
 import { IoMdContact } from 'react-icons/io'
 import { AiOutlineUser } from 'react-icons/ai'
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav>
       <div className='nav'>
@@ -33,4 +33,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
