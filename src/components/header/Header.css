@@ -29,6 +29,14 @@ header {
   height: 10rem;
   background: var(--color-primary);
 }
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 14rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
