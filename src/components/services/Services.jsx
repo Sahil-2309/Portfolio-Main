@@ -1,14 +1,7 @@
 import React from 'react'
 import '../../index.css'
 import './services.css'
-import { useState } from 'react'
 const Services = () => {
-  // const [n, setN] = useState(1)
-  // const [effect, setEfect] = useState('effect1')
-  // const changeeffect = () => {
-  //   setN(Math.floor(Math.random() * 11) + 1)
-  //   setEfect(`effect${n}`)
-  // }
   return (
     <section id='service'>
       <h5>What I Offer</h5>

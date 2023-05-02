@@ -18,6 +18,7 @@ const Portfolio = () => {
             <a
               href='https://github.com/Sahil-2309/Movie-Recommender'
               className='btn'
+              rel='noreferrer'
             >
               Github
             </a>
@@ -33,6 +34,7 @@ const Portfolio = () => {
             <a
               href='https://github.com/Sahil-2309/Portfolio-Main'
               className='btn'
+              rel='noreferrer'
             >
               Github
             </a>
