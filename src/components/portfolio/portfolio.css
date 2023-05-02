@@ -4,7 +4,7 @@
   gap: 2.5rem;
 }
 .portfolio__item {
-  background: var(--color-bg-variant);
+  background: #1f1f4d;
   padding: 1.3rem;
   border-radius: 2rem;
   border: 1px solid;
@@ -12,14 +12,15 @@
   overflow: auto;
 }
 .portfolio__item:hover {
-  filter: brightness(1.2);
+  filter: brightness(1.5);
   transition: filter 200ms ease-in-out, border-color 200ms ease-in-out,
     box-shadow 200ms ease-in-out;
   border-color: var(--color-primary);
   box-shadow: 0 0 10px var(--color-primary);
 }
 .portfolio__item:hover .portfolio__item-image {
-  transform: scale(1.5);
+  transform: scale(1.1);
+  transition: var(--transition);
 }
 .portfolio__item-image {
   border-radius: 1.5rem;
@@ -28,6 +29,8 @@
 .portfolio__item h3 {
   margin: 1.3rem 0 2rem;
 }
-.portfolio__item {
-  text-align: center;
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }

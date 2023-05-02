@@ -14,24 +14,30 @@ const Portfolio = () => {
             <img src={IMG1} alt='' />
           </div>
           <h3>MOVIE RECOMMENDER SYSTEM</h3>
-          <a
-            href='https://github.com/Sahil-2309/Movie-Recommender'
-            className='btn btn-primary'
-          >
-            Github
-          </a>
+          <div className='portfolio__item-cta'>
+            <a
+              href='https://github.com/Sahil-2309/Movie-Recommender'
+              className='btn'
+            >
+              Github
+            </a>
+            <button className='btn btn-primary'>Expired</button>
+          </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG2} alt='' />
           </div>
           <h3>PERSONAL PORTFOLIO WEBSITE</h3>
-          <a
-            href='https://github.com/Sahil-2309/Movie-Recommender'
-            className='btn btn-primary'
-          >
-            Github
-          </a>
+          <div className='portfolio__item-cta'>
+            <a
+              href='https://github.com/Sahil-2309/Portfolio-Main'
+              className='btn'
+            >
+              Github
+            </a>
+            <button className='btn btn-primary'>Not deployed</button>
+          </div>
         </article>
       </div>
     </section>
