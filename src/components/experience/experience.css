@@ -57,6 +57,7 @@
   }
   .experience__container > div {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
+    margin: 1rem 1rem 1rem 1rem;
   }
 }

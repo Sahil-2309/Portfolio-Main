@@ -49,4 +49,7 @@ header {
   .header__socials {
     display: none;
   }
+  .scroll__down {
+    display: none;
+  }
 }

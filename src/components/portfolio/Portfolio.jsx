@@ -38,7 +38,6 @@ const Portfolio = () => {
             >
               Github
             </a>
-            {/* <button className='btn btn-primary'>Not deployed</button> */}
           </div>
         </article>
       </div>
