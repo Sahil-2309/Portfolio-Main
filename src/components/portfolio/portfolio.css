@@ -12,15 +12,14 @@
   overflow: auto;
 }
 .portfolio__item:hover {
-  filter: brightness(1.5);
   transition: filter 200ms ease-in-out, border-color 200ms ease-in-out,
     box-shadow 200ms ease-in-out;
   border-color: var(--color-primary);
   box-shadow: 0 0 10px var(--color-primary);
 }
 .portfolio__item:hover .portfolio__item-image {
-  transform: scale(1.1);
-  transition: var(--transition);
+  transform: scale(1.035);
+  transition: 400ms;
 }
 .portfolio__item-image {
   border-radius: 1.5rem;
