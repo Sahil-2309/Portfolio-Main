@@ -2,7 +2,7 @@ import React from 'react'
 import '../../index.css'
 import './portfolio.css'
 import IMG1 from '../../assets/project1/Main.png'
-import IMG2 from '../../assets/project2/Screenshot 2023-05-01 211429.png'
+import IMG2 from '../../assets/project2/Main.png'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
