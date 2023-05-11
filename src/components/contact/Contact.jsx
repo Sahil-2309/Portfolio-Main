@@ -14,7 +14,11 @@ const contact = () => {
             <HiOutlineMail />
             <h4>Email</h4>
             <h5>Sahil.2723.a@gmail.com</h5>
-            <a href='mailto:sahil.2723.a@gmail.com' target='_blank'>
+            <a
+              href='mailto:sahil.2723.a@gmail.com'
+              target='_blank'
+              rel='noreferrer'
+            >
               Send a Mail
             </a>
           </article>
@@ -22,7 +26,11 @@ const contact = () => {
             <BsWhatsapp />
             <h4>Whatsapp</h4>
             <h5>9870118809</h5>
-            <a href='https://wa.me/919870118809' target='_blank'>
+            <a
+              href='https://wa.me/919870118809'
+              target='_blank'
+              rel='noreferrer'
+            >
               Send WhatsApp message
             </a>
           </article>
