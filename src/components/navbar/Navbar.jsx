@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className='nav'>
-        <a href='#home'>
+        <a href='#header'>
           <FiHome />
         </a>
         <a href='#about'>
