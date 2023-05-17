@@ -7,6 +7,7 @@ import Header from './components/header/Header'
 import Navbar from './components/navbar/Navbar'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
+
 import './index.css'
 const App = () => {
   return (

@@ -3,7 +3,31 @@ import '../../index.css'
 import './contact.css'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsWhatsapp } from 'react-icons/bs'
-const contact = () => {
+import { useRef } from 'react'
+import emailjs from 'emailjs-com'
+const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'service_wak6slq',
+        'template_3gg7nx1',
+        form.current,
+        'nA06nOyfmcv186ms5'
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+    e.target.reset()
+  }
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -11,10 +35,11 @@ const contact = () => {
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
-            <HiOutlineMail />
+            <HiOutlineMail className='contact__option-icon ' />
             <h4>Email</h4>
             <h5>Sahil.2723.a@gmail.com</h5>
             <a
+              className='btn'
               href='mailto:sahil.2723.a@gmail.com'
               target='_blank'
               rel='noreferrer'
@@ -23,10 +48,11 @@ const contact = () => {
             </a>
           </article>
           <article className='contact__option'>
-            <BsWhatsapp />
+            <BsWhatsapp className='contact__option-icon ' />
             <h4>Whatsapp</h4>
             <h5>9870118809</h5>
             <a
+              className='btn'
               href='https://wa.me/919870118809'
               target='_blank'
               rel='noreferrer'
@@ -35,7 +61,7 @@ const contact = () => {
             </a>
           </article>
         </div>
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Name' required />
           <input type='text' name='email' placeholder='Your Email' required />
           <textarea
@@ -52,4 +78,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
