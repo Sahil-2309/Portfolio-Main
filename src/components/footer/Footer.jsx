@@ -7,9 +7,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer__logo'>
-        SAHIL
-      </a>
+      <h1 className='footer__logo'>SAHIL</h1>
       <ul className='permalinks'>
         <li>
           <a href='#header'>Home</a>
