@@ -3,15 +3,13 @@ header {
   padding-top: 3rem;
   overflow: hidden;
 }
-
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
 }
-
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 2.5 rem;
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -26,14 +24,12 @@ header {
   left: 0;
   bottom: 3rem;
 }
-
 .header__socials::after {
   content: '';
   width: 1px;
   height: 10rem;
   background: var(--color-primary);
 }
-
 .me {
   position: relative;
   display: flex;
@@ -46,14 +42,12 @@ header {
   margin: 0 auto;
   margin-top: 150px;
 }
-
 .me img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .scroll__down {
   position: absolute;
   right: -2.3rem;
@@ -62,8 +56,7 @@ header {
   font-weight: 300;
   font-size: 1.2rem;
 }
-
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1024px) and (min-width: 601px) {
   header {
     height: 68vh;
   }
@@ -74,7 +67,6 @@ header {
     display: none;
   }
 }
-
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
@@ -86,11 +78,10 @@ header {
     display: none;
   }
 }
-
-@media (max-width: 480px) {
+@media (max-width: 700px) {
   .me {
-    width: 150px;
-    height: 150px;
-    margin-top: 120px;
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
   }
 }
