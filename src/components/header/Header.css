@@ -14,6 +14,16 @@ header {
   gap: 1rem;
   justify-content: center;
 }
+.me {
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5rem 1.5rem 1rem 1rem;
+  margin-top: 12rem;
+}
 .header__socials {
   display: flex;
   flex-direction: column;
@@ -41,6 +51,12 @@ header {
   header {
     height: 68vh;
   }
+  .me {
+    width: 18rem;
+    height: 25rem;
+    padding: 4rem 1rem 0.5rem 0.5rem;
+    margin-top: 15rem;
+  }
 }
 @media screen and (max-width: 600px) {
   header {
@@ -51,5 +67,11 @@ header {
   }
   .scroll__down {
     display: none;
+  }
+  .me {
+    width: 15rem;
+    height: 20rem;
+    padding: 3rem 0.5rem 0.3rem 0.3rem;
+    margin-top: 10rem;
   }
 }

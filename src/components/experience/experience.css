@@ -41,9 +41,10 @@
 @media screen and (max-width: 1024px) {
   .experience__container {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
   .experience__container > div {
-    width: 80%;
+    width: auto;
     padding: 2rem;
     margin: 0 auto;
   }
