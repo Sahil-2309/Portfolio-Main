@@ -1,5 +1,5 @@
 import React from 'react'
-import Sahil from '../../assets/Sahil.pdf'
+import Sahil from '../../assets/Sahil-Recent.pdf'
 import '../../index.css'
 
 const CTA = () => {
