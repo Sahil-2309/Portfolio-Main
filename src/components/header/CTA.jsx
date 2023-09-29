@@ -5,7 +5,7 @@ import '../../index.css'
 const CTA = () => {
   return (
     <div className='cta'>
-      <a href={Sahil Recent} download className='btn' rel='noreferrer'>
+      <a  download className='btn' rel='noreferrer'>
         Download CV
       </a>
       <a href='#contact' className='btn btn-primary' rel='noreferrer'>
