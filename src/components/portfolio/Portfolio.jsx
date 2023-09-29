@@ -3,6 +3,7 @@ import '../../index.css'
 import './portfolio.css'
 import IMG1 from '../../assets/project1/Main.png'
 import IMG2 from '../../assets/project2/Main.png'
+import IMG3 from '../../assets/Untitled-1.jpg'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -17,6 +18,22 @@ const Portfolio = () => {
           <div className='portfolio__item-cta'>
             <a
               href='https://github.com/Sahil-2309/Movie-Recommender'
+              className='btn'
+              rel='noreferrer'
+            >
+              Github
+            </a>
+            {/* <button className='btn btn-primary'>Expired</button> */}
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+            <img src={IMG3} alt='' />
+          </div>
+          <h3>Outfit Chatbot</h3>
+          <div className='portfolio__item-cta'>
+            <a
+              href='https://github.com/Sameerjha236/Flippy'
               className='btn'
               rel='noreferrer'
             >
